@@ -1,0 +1,95 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F5EFE6;
+    color: #3B2A20;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Fraunces', serif;
+}
+
+.page-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    background-color: #4B3223;
+    padding: 12px;
+}
+
+.site-nav a {
+    color: #F5EFE6;
+    text-decoration: none;
+}
+
+.site-header {
+    background-color: #4B3223;
+    color: #F5EFE6;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin: 0;
+}
+
+.welcome {
+    padding: 20px;
+}
+
+.welcome-image {
+    display: block;
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #4B3223;
+    color: #F5EFE6;
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #6B4226;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(59, 42, 32, 0.3);
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EAD9C4;
+    border: 1px solid #4B3223;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+}
+
+.site-footer {
+    background-color: #4B3223;
+    color: #F5EFE6;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-footer p {
+    margin: 0;
+}

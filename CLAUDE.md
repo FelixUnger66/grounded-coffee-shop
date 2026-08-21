@@ -23,7 +23,7 @@ This means the practical skill bar is: understand enough HTML/CSS to read, sanit
 A single-page website for a fictional/practice neighborhood coffee shop called "Grounded", used both as a portfolio-style build and as the vehicle for learning real HTML/CSS concepts hands-on (as opposed to the separate, unrelated practice files in Felix's `my-website` repo, which this project has been split out from).
 
 **Files:**
-- `grounded.html` — the page structure
+- `index.html` — the page structure (renamed from `grounded.html` on 2026-08-22 so Vercel's static hosting can find it as the default entry point at the site root — Vercel looks for `index.html` by default and was 404'ing without it)
 - `grounded.css` — all styling
 
 **Current structure/content of the page** (in order): a `.page-wrapper` div containing a centered nav bar (`.site-nav`, links to Home/Menu/Contact via anchor links), a header with the site name (`<h1>Grounded</h1>`), a welcome section with a hero image, intro paragraph, and a "View Full Menu" call-to-action button, a menu section listing items with prices (Espresso, Cappuccino, Warm Croissant) using flexbox rows (`.menu-item`), and a footer with address/phone/hours.

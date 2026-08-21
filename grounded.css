@@ -6,10 +6,19 @@ body {
     background-color: #F5EFE6;
     color: #3B2A20;
     font-family: 'Nunito', sans-serif;
+    font-size: 16px;
 }
 
 h1, h2 {
     font-family: 'Fraunces', serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
 }
 
 .page-wrapper {
@@ -92,4 +101,18 @@ h1, h2 {
 
 .site-footer p {
     margin: 0;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 2.25rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
 }
